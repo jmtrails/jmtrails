@@ -1,15 +1,83 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f0f0f0;
-  padding: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a {
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background: #25D366;
+  padding: 12px 25px;
+  background-color: #28a745;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about p, .trips ul {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.trips ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trips li {
+  padding: 8px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #fff;
 }
