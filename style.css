@@ -1,70 +1,86 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-image: url('bg.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
-.container {
-  background-color: rgba(0, 0, 0, 0.7);
+body {
+  background-color: #1c1c1e; /* Classy dark color */
+  color: #f5f5f7;
   min-height: 100vh;
-  padding: 20px;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0f0f0f;
 }
 
-.logo {
-  height: 80px;
-  margin-bottom: 10px;
+.logo img {
+  height: 60px;
+}
+
+.socials a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #25d366; /* WhatsApp green */
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5rem;
-  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 p {
-  margin: 5px 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .trips {
-  margin-top: 30px;
-}
-
-.trips h2 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+  margin: 2rem auto;
+  max-width: 600px;
 }
 
 .trips ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
-.trips li {
-  background: rgba(255, 255, 255, 0.1);
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 8px;
+.whatsapp-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #25d366;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebd5a;
 }
 
 footer {
   text-align: center;
-  margin-top: 40px;
+  padding: 1rem;
+  background-color: #0f0f0f;
   font-size: 0.9rem;
-}
-
-a {
-  color: #00ffc3;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+  color: #aaa;
 }
