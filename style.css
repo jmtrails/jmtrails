@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #1c1c1e; /* Classy dark color */
-  color: #f5f5f7;
+  background-color: #f3ebd9;
+color: #1f1f1f; /* optional: use dark text for contrast */
   min-height: 100vh;
 }
 
