@@ -1,83 +1,65 @@
 body {
-* {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.6;
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+  color: #fff;
 }
 
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b') no-repeat center center/cover;
-  color: white;
-  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+section.trips {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 20px;
+}
+
+section.trips h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.trip {
+  background-color: #ffffff15;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 12px;
+  padding: 20px;
   text-align: center;
 }
 
-header h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+.trip img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-header p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background-color: #28a745;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 30px;
-  transition: background 0.3s;
-}
-
-.btn:hover {
-  background-color: #218838;
-}
-
-section {
-  padding: 50px 0;
-}
-
-section h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.about p, .trips ul {
-  font-size: 1.1rem;
-  text-align: center;
-}
-
-.trips ul {
-  list-style: none;
-  padding: 0;
-}
-
-.trips li {
-  padding: 8px 0;
+.trip h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #ffd700;
 }
 
 footer {
+  background-color: rgba(0, 0, 0, 0.6);
   text-align: center;
-  padding: 20px;
-  background-color: #222;
-  color: #fff;
+  padding: 15px;
+  font-size: 0.9em;
 }
